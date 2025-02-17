@@ -1,0 +1,14 @@
+set JUPYTER_RUNTIME_DIR=C:\Temp\jupyter_runtime
+set JUPYTER_RUNTIME_DIR=C:\Users\sb075216\Desktop\Projects\Temp
+python.exe -m venv venv
+venv\Scripts\activate
+set JUPYTER_RUNTIME_DIR=C:\Temp\jupyter_runtime
+
+Follow these steps to open jupyter notebook:
+cd C:\Users\sb075216\Desktop\Projects
+set JUPYTER_RUNTIME_DIR=C:\Users\sb075216\Desktop\Projects\Temp
+venv\Scripts\activates
+c
+jupyter notebook
+
+pip install --no-binary catboost
